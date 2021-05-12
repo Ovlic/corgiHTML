@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+body, html {
+    position: relative;
+    height: 100%; 
+    width : 100%;  
+    margin: 0;
+    background-color:darkgreen;
+}
+.circle {
+    position: absolute;
+    border: solid 1px #ccc;
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;  
+}
+.corgi {
+    position: absolute;
+}
+.flip {
+    transform: rotateY(180deg) /*scaleX(-1);
+    /**-webkit-transform: scaleX(-1); */
+}
+.unflip {
+    transform: rotateY(0deg);
+}
+#image{    
+    position:absolute;
+}
+.togglecorgibtn {
+    border-color: transparent;
+    color: black;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 20px;
+    left: 20px;
+    padding: 0px 32px;
+    word-wrap: none;
+    white-space: nowrap;
+    transition: background-color .125s linear;
+    transition: color .125s linear;
+    background-color: white;
+    width: 125px;
+    height: 50px;
+    font-size: 16px;
+    text-align: left;
+}
+.togglecorgibtn:hover {
+    background-color: black;
+    color: white;
+}
+.corgibtntxt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
