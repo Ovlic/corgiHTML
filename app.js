@@ -37,11 +37,11 @@ function myFunction (corgi){
 function toggleCorgis (){
     const corgielement = document.getElementById("image")
     console.log(corgielement.src)
-    if(corgielement.src === "file:///Users/JustinBuck2022/Desktop/code1/corgi1.gif"){
-        corgielement.src = "file:///Users/JustinBuck2022/Desktop/code1/corgi2.gif"
-    } else if(corgielement.src === "file:///Users/JustinBuck2022/Desktop/code1/corgi2.gif"){
-        corgielement.src = "file:///Users/JustinBuck2022/Desktop/code1/corgi3.gif"
-    } else if(corgielement.src === "file:///Users/JustinBuck2022/Desktop/code1/corgi3.gif"){
-        corgielement.src = "file:///Users/JustinBuck2022/Desktop/code1/corgi1.gif"
+    if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi1.gif"){
+        corgielement.src = "https://ovlic.github.io/corgiHTML/corgi2.gif"
+    } else if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi2.gif"){
+        corgielement.src = "https://ovlic.github.io/corgiHTML/corgi3.gif"
+    } else if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi3.gif"){
+        corgielement.src = "https://ovlic.github.io/corgiHTML/corgi1.gif"
     }
 }
