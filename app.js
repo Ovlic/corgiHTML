@@ -36,7 +36,6 @@ function myFunction (corgi){
 }
 function toggleCorgis (){
     const corgielement = document.getElementById("image")
-    console.log(corgielement.src)
     if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi1.gif"){
         corgielement.src = "https://ovlic.github.io/corgiHTML/corgi2.gif"
     } else if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi2.gif"){
