@@ -36,6 +36,7 @@ function myFunction (corgi){
 }
 function toggleCorgis (){
     const corgielement = document.getElementById("image")
+    console.log(corgielement.src)
     if(corgielement.src === "file:///Users/JustinBuck2022/Desktop/code1/corgi1.gif"){
         corgielement.src = "file:///Users/JustinBuck2022/Desktop/code1/corgi2.gif"
     } else if(corgielement.src === "file:///Users/JustinBuck2022/Desktop/code1/corgi2.gif"){
