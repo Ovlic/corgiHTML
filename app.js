@@ -36,11 +36,11 @@ function myFunction (corgi){
 }
 function toggleCorgis (){
     const corgielement = document.getElementById("image")
-    if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi1.gif"){
-        corgielement.src = "https://ovlic.github.io/corgiHTML/corgi2.gif"
-    } else if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi2.gif"){
-        corgielement.src = "https://ovlic.github.io/corgiHTML/corgi3.gif"
-    } else if(corgielement.src === "https://ovlic.github.io/corgiHTML/corgi3.gif"){
-        corgielement.src = "https://ovlic.github.io/corgiHTML/corgi1.gif"
+    if(corgielement.src === "https://ovlic.com/corgiHTML/corgi1.gif"){
+        corgielement.src = "https://ovlic.com/corgiHTML/corgi2.gif"
+    } else if(corgielement.src === "https://ovlic.com/corgiHTML/corgi2.gif"){
+        corgielement.src = "https://ovlic.com/corgiHTML/corgi3.gif"
+    } else if(corgielement.src === "https://ovlic.com/corgiHTML/corgi3.gif"){
+        corgielement.src = "https://ovlic.com/corgiHTML/corgi1.gif"
     }
 }
